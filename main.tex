@@ -1,0 +1,136 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault]{arimo}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper, portrait, margin=0.3in]{geometry}
+\usepackage{multicol}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\usepackage{fontawesome5}
+
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+% Custom section format config
+\usepackage{titlesec}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0em}{0em}{1em}
+\usepackage{enumitem}
+\setlist{noitemsep}
+
+\title{Resume 2022}
+\author{Stephane Verville-Vohl}
+\date{August 2022}
+
+
+\begin{document}
+\pagestyle{empty} % non-numbered pages
+
+% ============================= CONTACT ME ==================================
+
+\begin{center}
+    {\Huge {Stéphane Verville-Vohl}} {\huge(He/Him)}\\
+\end{center}
+
+\begin{tabular}{rl}
+    \faGlobeAmericas { :} & Montreal, Quebec, Canada \\
+    \faPhoneSquare   { :} & (514) 268-4807 \\
+    \faAt            { :} & noxlittner@gmail.com \\
+    \faLinkedin      { :} & linkedin.com/in/stephane-verville-vohl \\
+    \faGithubSquare  { :} & github.com/Merst
+\end{tabular}
+
+% ================================= HEADLINE ====================================
+
+\begin{center}\large{\emph{Bilingual software engineer previously specialised in Data Science eager to find a position as a Data Engineer. Returning from a hiatus that started at the beginning of the COVID-19 pandemic. Strong interest in using any of the following cloud service providers: AWS, Azure or Google Cloud Platform.}}\\
+\end{center}
+
+% ========================== TECH SKILLS ===================================
+\begin{itemize}
+    \item Fluent in English and French (Native language), written and spoken.
+    \item Experience coding in Python (Preference), Java, Javascript, Kotlin.
+    \item Open to learning any programming languages as necessary.
+    \item Experience using Windows and Linux/UNIX (Preference) operational systems.
+    \item Experience with relational and non-relational databases, for OLTP/OLAP purposes. 
+    
+    \hspace{1em} (MySQL | PostgreSQL | MongoDB | Cassandra)
+    \item Experience with the ETL/ELT process in data warehouses.
+    
+    \hspace{1em} (pySpark | Hadoop | dbt | Kafka | Snowflake | Databricks | Redshift)
+    \item Working knowledge of data pipeline development and orchestration. (Airflow | Prefect | Dagster)
+        
+% ===================== DEV OPS =========================
+    \item Knowledge and understanding of modern DevOps best practices including:
+    \begin{itemize}
+        \item Version control systems (Git | Mercurial)
+        \item Continuous integration and delivery (CI/CD) (Github actions | Jenkins)
+        \item Deployment on cloud (Heroku)
+        \item Infrastructure as code (IaC) (Terraform)
+        \item Microservice-oriented software architecture and containers (Docker)
+    \end{itemize}
+    
+% =================== TASK EXAMPLES =========================
+    \item Previous programming tasks include:
+        \begin{itemize}
+            \item Data visualisation (Jupyter Notebook | Power BI)
+            \item Scripting and task automation (Python | Bash | Batch | Powershell)
+            \item Website and web application development (HTML | CSS/bootstrap | LAMP Stack | Django Framework)
+            \item Android mobile application  development (Android Studio | Java | Kotlin)
+            \item Classification, regression, and model training from large-scale datasets using AI/ML python librairies
+            
+            \hspace{1em} (Keras | Tensorflow | scikit-learn | pyTorch | matplotlib | numpy | pandas)
+        \end{itemize}
+\end{itemize}
+
+% ================================ EXPERIENCE ==================================
+\section*{Work Experience}
+% ======================== IBM ===========================
+    \begin{tabular}{p{2.2cm} p{17cm}}
+        2019 - 2020 & {\large \textbf{IBM Client Innovation Center} (Montreal, Canada) - \textit{Consultant Data Analyst}}
+        \vspace{0.2em}
+         
+         \hspace{1em} Near-shore consultant: On-site consultant for clients at their respective office 25\% of working time,
+         
+          \hspace{1em}  while working in Montreal's office for the remainder. Project collaboration for clients include:
+            \begin{itemize}
+                \item[] \textbf{IBM Riverside} (Ottawa, Canada) - \textit{Data Analyst for Canada Post}
+
+                \hspace{1em} Quality control of the integrity of sensitive data for a long-term ongoing business intelligence
+                
+                \hspace{1em} operation related to the efficiency of advertisement mail delivery in Canada.
+
+                \vspace{1em}
+                
+                \item[] \textbf{IBM Calgary} (Calgary, Canada) - \textit{Data Scientist for Suncor Energy}
+
+                \hspace{1em} ETL operations using IBM Cloud services for business intelligence tasks related to the 
+                
+                \hspace{1em} optimization of operations at the Suncor Edmonton Refinery. 
+            \end{itemize} \\
+    
+% ================== Bombardier ==================
+
+        \textsc{Summer 2018} & 
+        {\large \textbf{Bombardier Inc.} (Montreal, Canada) - \textit{Machine Learning Software Engineer Intern}}
+        \begin{itemize}[topsep=0.2em]
+            \item Feature development for ReidGen: a machine learning model generator coded in FORTRAN.
+            \item Implementation of GPU computation support for ReidGen using the Nvidia CUDA library.
+            \item Creation of a python library to transform raw data into a data format optimized for ReidGen.
+            \item Predictive analyses of time series using recurrent neural networks trained using  Reidgen 
+            
+            on an on-premise high-performance cluster (HPC) or on regular on-premise PCs.
+        \end{itemize}
+    \end{tabular}
+
+% ========================== EDUCATION ================================
+    \section*{Education}
+    \begin{tabular}{p{2.4cm} p{18cm}}	
+        2016 - 2018 & {\large \textbf{Université de Montréal} (Montreal, Canada) - \textit{Bachelor of Computer Science}}
+        \vspace{0.2em}
+        
+                \hspace{1em} Curriculum focused on Artificial Intelligence  - GPA: 3.834 
+                
+                \hspace{1em} Specialised courses include: Machine Learning, Data Science, Operational Research, 
+                
+                \hspace{1em} Optimization, Simulation, Networking, Agile Software Engineering
+    \end{tabular}
+\end{document}
